@@ -6,12 +6,12 @@ package dependency;
  *         Represents a 'class' which dependencies we are trying to find out.
  *         Representation using separate class is chosen in order to keep
  *         dependency tracking logic independent from the Node 'class'
- *         realization.
+ *         realization. 
  * 
  */
 public class Node implements Comparable<Node> {
 
-	String name;
+	String name; //name
 
 	Node(String name) {
 
